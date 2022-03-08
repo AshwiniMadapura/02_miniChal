@@ -50,7 +50,7 @@
     top: 0;
     right: 350;
 }
-.German:hover .hungary{ 
+.German:hover .Hungary{ 
     /* display: flex; */
     background-color: white;
     position: fixed;
@@ -60,7 +60,7 @@
     left: 30%;
     top: 40%;
 }
-.German:hover .hungary:before{
+.German:hover .Hungary:before{
     content: "";
     width: 100%;
     height: 35%;
@@ -70,7 +70,7 @@
     left: 0;
 }
 
-.German:hover .hungary:after{
+.German:hover .Hungary:after{
     content: "";
     width: 100%;
     height: 33%;
