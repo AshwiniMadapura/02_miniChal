@@ -1,0 +1,109 @@
+.German{
+    background-color: red;
+    position: relative;
+    margin: 100px;
+    padding: 60px;
+    width: 10%;
+    left: 30%;
+    top: 0%;    
+}
+.German:before { 
+    content: "";
+    width: 100%;
+    height: 35%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.German:after{
+    content: "";
+    width: 100%;
+    height: 33%;
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.French{
+    padding: 10%;
+    background-color: white;
+    position: relative;
+    margin: 90px;
+}
+
+.French:before{
+    content: "";
+    width: 5%;
+    height: 70%;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 350;
+}
+.French:after{
+    content: "";
+    width: 5%;
+    height: 70.3%;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 350;
+}
+.German:hover .hungary{ 
+    /* display: flex; */
+    background-color: white;
+    position: fixed;
+    margin: 100px;
+    padding: 60px;
+    width: 10%;
+    left: 30%;
+    top: 40%;
+}
+.German:hover .hungary:before{
+    content: "";
+    width: 100%;
+    height: 35%;
+    background-color: rgb(218, 47, 75);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.German:hover .hungary:after{
+    content: "";
+    width: 100%;
+    height: 33%;
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.French:hover .Irish{
+    padding: 10%;
+    background-color: white;
+    position: fixed;
+    margin: 5px;
+}
+
+.French:hover .Irish:after{
+    content: "";
+    width: 4%;
+    height: 25%;
+    background-color: green;
+    position: fixed;
+    top: 80;
+    left: 448;
+}
+.French:hover .Irish:before{
+    content: "";
+    width: 4%;
+    height: 25%;
+    background-color: rgb(231, 84, 10);
+    position: fixed;
+    top: 80;
+    /* left: 420; */
+    right: 470;
+
+}
